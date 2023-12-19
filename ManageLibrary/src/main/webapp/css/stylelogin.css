@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+   font-weight: border; 
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    color: azure;
+    background-color: #FFFFFF;
+
+}
+p,h3,h4,span{
+    color:rgb(18, 16, 16);
+}
+ h2{
+    font-weight: 600;
+    color: #000000;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.inf ul li,
+p,
+.norm span
+{
+    font-weight: 300;
+    font-style: Light;
+    color: #484848;
+    line-height: 36px;
+}
+.discover
+{
+    font-style: Regular;
+    font-weight: 400;
+    color: #111111;
+}
+#header{
+
+    position: relative;
+    width: 100%;
+}
+.banner img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.main-header{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    padding: 0 100px;
+    border-bottom: 1px solid #525252;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 350px;
+}
+
+.menu img {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    font-size: 15px;
+    font-weight: 200;
+    font-style: light;
+    list-style: none; 
+    position: relative;
+}
+
+.menu ul li a {
+    color: #fff; 
+    padding: 15px; 
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(32, 31, 31, 0.5); 
+    transition: background-color 0.3s ease; 
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgba(32, 31, 31, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    padding-top: 20px;
+    margin-top: 10px;    
+    z-index: 3;
+    
+}
+.menu .submenu li {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.menu .submenu li a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu .submenu li a:hover {
+    background-color: #555;
+}
+.menu ul li:hover .submenu,
+.menu .submenu:hover {
+    display: block;
+}
+.brand{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.brand a {
+    margin-top: 7px;
+    font-family: 'Josefin sans';
+    color: white;
+    font-size: 23px;
+}
+.user-all{
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+}
+.user{
+    background:rgba(51, 48, 48, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+.user img{
+    width: 26px;
+    height: 26px;
+}
+.user-all a{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: Light;
+}
+.log{
+    margin-top: 10px;
+}
+
+
+.form-login{
+    color: white;
+    width: 470px;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    background-color: rgba(25, 23, 22, 0.5);
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+input[type=text],input[type=email],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #020201;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+input[type=submit]:hover {
+    background-color: rgba(32, 31, 31, 0.7); 
+}
+
+#footer .brand-name-last {
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    border-top: 1px solid #dcdcdc;
+    padding: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contact p{
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.img-round, .img-visa, .img-amex{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.img-round{
+    margin-top: 8px;
+}
+.img-amex{
+    margin-top: 17px;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1300px){
+    .main-header,
+    .main-process{
+        padding: 0 40px;
+    }
+    .brand img{
+        width: 180px;
+        height: 80px;
+    }
+    .menu,
+    .user-all{
+        width: 270px;
+    }
+    .main-intro p{
+        width: 75%;
+    }
+    .main-intro h2{
+        margin-top: 90px;
+    }
+    .main-intro .discover{
+        margin-bottom: 90px;
+    }
+    .contact{
+        padding-left: 150px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .main-header{
+        padding: 0 25px;
+    }
+    .main-header{
+        border-bottom:0.2px solid #383636 ;
+    }
+    .menu ul{
+        display: none;
+    }
+    .brand img{
+        width: 125px;
+        height: 55px;
+    }
+    .brand {
+        height: 55px;
+    }
+    .brand a img{
+        margin-top: 0;
+    }
+    .menu,
+    .user-all{
+        width: 150px;
+    }
+    .menu img{
+        display: block;
+        height: 18px;
+        width: 18px;
+    }
+   
+    .user{
+        margin-left: 8px;
+    }
+    .user img{
+        margin-top: 8px;
+        margin-left: 6px;
+        width: 15px;
+        height: 8.5px;
+
+    }
+    .menu ul li{
+        font-size: 15px;
+    }
+    .header-bottom{
+        top: 55px;
+        height: 68%;
+    }
+   
+    .main-intro p{
+        width: 75%;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .main-intro h2{
+        margin-top: 20px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .main-intro .discover{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+   
+    #footer{
+        padding-top:10px ;
+    }
+   
+    .contact{
+        padding:0 20px;
+        height: 36px;
+        display: block;
+        align-items: center;
+    }
+    .contact p{
+        font-size: 11px;
+        margin-top: 0px;
+    }
+    .img-amex,
+    .img-round,
+    .img-visa{
+        margin-right: 10px;
+        margin-top: 0;
+        height: 100%;
+        padding-top: 10px;
+    }
+    .img-round{
+        padding-top: 8px;
+    }
+    .img-round img,
+    .img-visa img,
+    .img-amex img{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 414px){
+    .slide-show{
+        display: none;
+    }
+    .brand img{
+        width: 100px;
+        height: 44px;
+    }
+    .main-header{
+        height: 44px;
+        padding: 0 15px;
+    }
+    .brand {
+        height: 44px;
+    }
+    .contact p{
+        width: 90%;
+    }
+}
