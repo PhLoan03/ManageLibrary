@@ -26,20 +26,6 @@ This is a Library Management System designed to help librarians efficiently mana
 - **Login & Logout**: Secure system access for librarians.  
 
 ---
-
-## 🔹 Technologies  
-- **Front-end**: HTML, CSS  
-- **Back-end**: JSP/Servlet, JDBC  
-- **Database**: MySQL  
-- **Server**: Apache Tomcat  
-
----
-
-## 🔹 Installation & Setup  
-
-### 📥 Clone the repository  
-```bash
-git clone https://github.com/PhLoan03/ManageLibrary.git
 ## 📷 Screenshots
 
 ### 📝 User Guide
@@ -66,3 +52,17 @@ git clone https://github.com/PhLoan03/ManageLibrary.git
 ### 👤 Check Readers
 ![Check Readers](https://github.com/PhLoan03/ManageLibrary/issues/1#issuecomment-2692865241)
 
+---
+## 🔹 Technologies  
+- **Front-end**: HTML, CSS  
+- **Back-end**: JSP/Servlet, JDBC  
+- **Database**: MySQL  
+- **Server**: Apache Tomcat  
+
+---
+
+## 🔹 Installation & Setup  
+
+### 📥 Clone the repository  
+```bash
+git clone https://github.com/PhLoan03/ManageLibrary.git
